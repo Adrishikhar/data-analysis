@@ -1,7 +1,5 @@
 const url = "https://one00x-data-analysis.onrender.com/assignment?email=adrishikhardeka@gmail.com"
 
-const XAssignmentID = "82f2a3d3-13c2-46f2-94e2-c75d39747a04"
-
 const fetchData = async () => {
 	const response = await fetch(url)
 	return response
